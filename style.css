@@ -35,13 +35,13 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .active{
-	background: red;
+	background: #74c7d5;
 }
 .menue ul li {
 	display: inline-block;
 	list-style:none;
 	position: relative;
-	margin: 0px ;
+	margin: -2px ;
 	padding: 15px -1px 0px;
 	width: 133px;
 	text-align: center;
@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6,p{
 	padding: 20px 30px;
 	color: #fff;
 }
+
 .menue .dropdown {
 	display: none;
 }
