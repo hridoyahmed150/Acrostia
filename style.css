@@ -34,10 +34,8 @@ h1,h2,h3,h4,h5,h6,p{
 	background-position: center;
 }
 
-.menue ul .active{
-	background: #74c7d5;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+.active{
+	background: red;
 }
 .menue ul li {
 	display: inline-block;
@@ -223,6 +221,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .owl-carousel{
 	z-index: 0;
+}
+.owl-stage .active {
+	background: transparent;
 }
 
  /* end header area   */
