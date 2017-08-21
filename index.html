@@ -22,14 +22,14 @@
         <link rel="stylesheet" href="style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".header-area" data-offset="50">
         <div id="Home" class="header-area">
-            <div class="container">
+            <div class="container navbar-fixed-top">
                 <div class="row">
-                    <div class="menue-area" data-spy="affix">
-                        <div class="col-xs-2 logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
-                        <div class="col-xs-10 menue">
-                            <ul class="pull-right">
+                    <nav class="menue-area">
+                        <div class="col-sm-3 logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+                        <div class="col-sm-9 menue">
+                            <ul class="pull-right nav">
                                 <li class="active"><a href="#Home">Home</a>
                                     <ul class="dropdown menu1">
                                         <li><a href="#">dropdown1</a></li>
@@ -72,8 +72,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </nav>
                 </div>
+            </div>
+            <div class="container">
                 <div class="row">
                     <div class="benner-area">
                         <div class="col-xs-10 col-xs-offset-1 owl-carousel">

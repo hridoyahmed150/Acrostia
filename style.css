@@ -34,31 +34,52 @@ h1,h2,h3,h4,h5,h6,p{
 	background-position: center;
 }
 
-.active{
+.menue ul li.active{
 	background: #74c7d5;
 }
+.menue ul li:nth-child(2).active {
+	background: #df5c64;
+}
+.menue ul li:nth-child(3).active {
+	background: #91778e;
+}
+.menue ul li:nth-child(4).active {
+	background: #a1ca6c;
+}
+.menue ul li:nth-child(5).active {
+	background: #82c8bd;
+}
+
 .menue ul li {
 	display: inline-block;
 	list-style:none;
 	position: relative;
 	margin: -2px ;
 	padding: 15px -1px 0px;
-	width: 133px;
+	width: 100px;
 	text-align: center;
+	border-radius: 3px;
 }
-.affix{
-	z-index: 11111;
-    width: 67.6%;
-}
+
+/*.fixed{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	width: 67.65%;
+}*/
 .menue ul li:hover {
 	background: #74c7d5;
 	/*border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;*/
 }
+.nav>li>a:focus, .nav>li>a:hover{
+	/*background: #74c7d5;*/
+	background: transparent;
+}
 .menue ul li a {
 	text-decoration: none;
 	display: inline-block;
-	padding: 20px 30px;
+	padding: 20px 24px;
 	color: #fff;
 }
 
@@ -209,7 +230,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
     position: absolute;
     top: 40%;
-    left: -30%;
+    left: -25%;
     opacity: .5;
 }
 .owl-carousel .owl-next{
@@ -217,7 +238,7 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
     position: absolute;
     top: 40%;
-    right: -30%;
+    right: -25%;
     opacity: .5;
 }
 .owl-carousel{
